@@ -8,6 +8,6 @@ else
     exit 1
 fi
 
-git commit -m "Bumped version to $1"
-git tag $1
-git push --tags 
+# git commit -m "Bumped version to $1"
+# git tag $1
+# git push --tags 
