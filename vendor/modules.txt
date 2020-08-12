@@ -1,0 +1,6 @@
+# github.com/go-chi/chi v4.1.2+incompatible
+## explicit
+github.com/go-chi/chi
+# github.com/go-chi/render v1.0.1
+## explicit
+github.com/go-chi/render
