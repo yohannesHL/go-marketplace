@@ -9,19 +9,19 @@ import (
 var logger = log.New(os.Stderr, "ERROR ", log.Llongfile)
 
 // ServerError returns and handles default server error response.
-func ServerError(err error) Response {
+func ServerError(err error) ErrorResponse {
 	logger.Println(err.Error())
 
-	return Response{
-		StatusCode: http.StatusInternalServerError,
-		Body:       http.StatusText(http.StatusInternalServerError),
+	return ErrorResponse{
+		Code:    http.StatusInternalServerError,
+		Message: http.StatusText(http.StatusInternalServerError),
 	}
 }
 
 // ClientError returns common client error response matching given statusCode.
-func ClientError(statusCode int) Response {
-	return Response{
-		StatusCode: statusCode,
-		Body:       http.StatusText(statusCode),
+func ClientError(statusCode int) ErrorResponse {
+	return ErrorResponse{
+		Code:    statusCode,
+		Message: http.StatusText(statusCode),
 	}
 }
