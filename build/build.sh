@@ -1,0 +1,3 @@
+#!/bin/bash
+
+go install -i -v -installsuffix "static"  ldflags="-X 'main.version=$VERSION'" ./...
