@@ -5,7 +5,7 @@ A REST API for a simple marketplace built with Go
 ## Install
 
 Run: 
-```sh
+```
 $ make build
 ```
 
