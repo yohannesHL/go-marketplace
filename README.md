@@ -4,13 +4,18 @@ A REST API for a simple marketplace built with Go
 
 ## Install
 
-`make build`
+Run: 
+```sh
+$ make build
+```
 
 The executable will be in `./bin/` folder.
 
 ## Start
 
 Start the server by running:
-```./bin/server```
+```
+$ ./bin/server
+```
 
 The API endpoints will be available on `localhost:7000`
