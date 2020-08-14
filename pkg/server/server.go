@@ -17,6 +17,7 @@ func Start(host string) {
 		render.SetContentType(render.ContentTypeJSON), 
 		middleware.AllowContentEncoding("application/json"),
 		middleware.RequestID,
+		middleware.Logger,
 		middleware.RealIP,
 		middleware.Recoverer,
 	)
