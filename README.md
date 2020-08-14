@@ -2,13 +2,13 @@
 A REST API for a simple marketplace built with Go
 
 
-# Install
+## Install
 
 `make build`
 
 The executable will be in `./bin/` folder.
 
-# Start
+## Start
 
 Start the server by running:
 ```./bin/server```
