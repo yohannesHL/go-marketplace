@@ -4,3 +4,5 @@ github.com/go-chi/chi
 # github.com/go-chi/render v1.0.1
 ## explicit
 github.com/go-chi/render
+# golang.org/x/net v0.0.0-20200813134508-3edf25e44fcc
+## explicit
